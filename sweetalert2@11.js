@@ -1,7 +1,7 @@
 (function() {
     // สร้างแถบดำที่ด้านล่าง
     var banner = document.createElement('div');
-    banner.style.cssText = 'background-color: black; color: white; padding: 10px; text-align: center; position: fixed; bottom: 0; left: 0; right: 0; user-select: none; z-index: 9999;';
+    banner.style.cssText = 'background-color: rgba(0, 0, 0, 0.7); color: white; padding: 10px; text-align: center; position: fixed; bottom: 0; left: 0; right: 0; user-select: none; z-index: 9999;';
     banner.textContent = '©️ครูอั๋น ใจดี';
     document.body.appendChild(banner);
 
